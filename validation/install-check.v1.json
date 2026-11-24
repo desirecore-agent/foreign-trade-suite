@@ -1,0 +1,175 @@
+{
+  "schemaVersion": 1,
+  "description": "Sanitized observed release packaging/installation facts, not autonomous channel or signed-client certification.",
+  "observedDate": "2026-11-24",
+  "teamSourceTested": "9ca04925358e7abd494de64aa9c49672e8bf76de",
+  "developmentRuntime": {
+    "sourceRepository": "https://github.com/desirecore/desirecore",
+    "commit": "d8d4d86a2776e2e2caa2f3cabcdf1d378fa7619e",
+    "packageVersionLabel": "10.0.203",
+    "node": "v22.23.2",
+    "platform": "darwin",
+    "arch": "arm64",
+    "git": "2.39.5",
+    "builder": "Vite SSR CJS standalone settings; bundled ESM provider libraries, one output, lazy external imports, no app out-directory overwrite",
+    "bundleSha256": "1245971d095be117531da41169156a03d6353ef4e2aef56ef9987003598a5538",
+    "buildRecipeSha256": "f11bc84e6458ce2e5155009b36387a62b50de04d38ad7c8a4794e6578689122c",
+    "dependencyScope": "Existing development dependency installation; not a release211 dependency lock or signed application"
+  },
+  "compatibility": {
+    "requiredTeamClient": "10.0.211",
+    "releaseTag": "v10.0.211",
+    "releaseCommit": "9a8ce8490789b7bae3872b0af8be385332e69bfe",
+    "installerModules": [
+      {
+        "path": "packages/agent-service/src/team/installer.ts",
+        "testedBlob": "2c058036147fec24036f4c9a233db5295065c369",
+        "release211Blob": "2c058036147fec24036f4c9a233db5295065c369"
+      },
+      {
+        "path": "packages/agent-service/src/team/member-upstream.ts",
+        "testedBlob": "50c35685896de5242bfe3ae748dbf72a8ed9d1bc",
+        "release211Blob": "50c35685896de5242bfe3ae748dbf72a8ed9d1bc"
+      },
+      {
+        "path": "packages/agent-service/src/team/resolver.ts",
+        "testedBlob": "b7f9c6178f27446b6fdc40ed8f7186be39c82610",
+        "release211Blob": "b7f9c6178f27446b6fdc40ed8f7186be39c82610"
+      },
+      {
+        "path": "packages/agent-service/src/team/fork.ts",
+        "testedBlob": "5036e009b3e903e38aa45aefedabfbb82bb7427b",
+        "release211Blob": "5036e009b3e903e38aa45aefedabfbb82bb7427b"
+      }
+    ],
+    "released203Supported": false,
+    "reason": "Released203 resolveMemberTrackingTarget rejects full SHA and tag declarations. Release211 separates source pin from declared repository tracking branch.",
+    "signed211BinaryTested": false
+  },
+  "deployment": {
+    "isolatedHome": true,
+    "loopbackTokenAuthentication": true,
+    "externalMode": true,
+    "systemGitOverride": true,
+    "protectedStateOutsideAgentFS": true,
+    "credentialsOrAccountsCopied": false,
+    "userModelsConfigured": false,
+    "unrelatedBootstrapBundlesAvailable": false
+  },
+  "installation": {
+    "method": "POST /api/teams/fork then POST /api/teams/:id/git/install-members after deployment prerequisite correction",
+    "initialResult": {
+      "teamDownloaded": true,
+      "installed": 0,
+      "failed": 12,
+      "reason": "Missing standalone protected state directory; original failed receipt retained privately"
+    },
+    "recoveredResult": {
+      "installed": 12,
+      "failed": 0,
+      "complete": true,
+      "members": [
+        {
+          "agentId": "ft-marketing-lead",
+          "status": "installed",
+          "source": "https://github.com/desirecore-agent/ft-marketing-lead.git",
+          "sourceCommit": "bbeb37d3303670bd5bd6705968ec07ae861017fd",
+          "version": "0.1.0"
+        },
+        {
+          "agentId": "ft-email-specialist",
+          "status": "installed",
+          "source": "https://github.com/desirecore-agent/ft-email-specialist.git",
+          "sourceCommit": "b213628bfb9b61945172259cf988cc26f4c38949",
+          "version": "0.1.0"
+        },
+        {
+          "agentId": "ft-search-specialist",
+          "status": "installed",
+          "source": "https://github.com/desirecore-agent/ft-search-specialist.git",
+          "sourceCommit": "1a34dbc054e6935ee4dd6346e42c8901ff485e19",
+          "version": "0.1.0"
+        },
+        {
+          "agentId": "ft-social-researcher",
+          "status": "installed",
+          "source": "https://github.com/desirecore-agent/ft-social-researcher.git",
+          "sourceCommit": "4d4e13a2ab17391ea27c4cfe50fb9ce0f09278e5",
+          "version": "0.1.0"
+        },
+        {
+          "agentId": "ft-social-operator",
+          "status": "installed",
+          "source": "https://github.com/desirecore-agent/ft-social-operator.git",
+          "sourceCommit": "d3886296bbf4d42a7d277de0d7428f2e97f58552",
+          "version": "0.1.0"
+        },
+        {
+          "agentId": "ft-customs-specialist",
+          "status": "installed",
+          "source": "https://github.com/desirecore-agent/ft-customs-specialist.git",
+          "sourceCommit": "703adcf6a4fc23a1c2905077fa7c8afc2faccbcf",
+          "version": "0.1.0"
+        },
+        {
+          "agentId": "ft-ads-specialist",
+          "status": "installed",
+          "source": "https://github.com/desirecore-agent/ft-ads-specialist.git",
+          "sourceCommit": "0ec25d91f0af91e69de16804c29a0ad0083e66a4",
+          "version": "0.1.0"
+        },
+        {
+          "agentId": "ft-due-diligence",
+          "status": "installed",
+          "source": "https://github.com/desirecore-agent/ft-due-diligence.git",
+          "sourceCommit": "58996d74a71d60ad990eb6bfa968b34c7ca8483f",
+          "version": "0.1.0"
+        },
+        {
+          "agentId": "ft-document-specialist",
+          "status": "installed",
+          "source": "https://github.com/desirecore-agent/ft-document-specialist.git",
+          "sourceCommit": "70d19a709cc8739587cd6fb63b54a1933bb41a67",
+          "version": "0.1.0"
+        },
+        {
+          "agentId": "ft-sourcing-specialist",
+          "status": "installed",
+          "source": "https://github.com/desirecore-agent/ft-sourcing-specialist.git",
+          "sourceCommit": "96e7d28e6d9e4f0f707b2e3b16a815909a33b322",
+          "version": "0.1.0"
+        },
+        {
+          "agentId": "ft-image-specialist",
+          "status": "installed",
+          "source": "https://github.com/desirecore-agent/ft-image-specialist.git",
+          "sourceCommit": "5709b28b72cde8da416efb3e1a9a6319f8116b37",
+          "version": "0.1.0"
+        },
+        {
+          "agentId": "ft-site-specialist",
+          "status": "installed",
+          "source": "https://github.com/desirecore-agent/ft-site-specialist.git",
+          "sourceCommit": "c0131f3e459d7af5971cf320f1a31d00153eab27",
+          "version": "0.1.0"
+        }
+      ]
+    },
+    "independentInstalledChecks": {
+      "passed": 94,
+      "failed": 0
+    },
+    "duplicateSourceRequest": {
+      "httpStatus": 409,
+      "code": "TEAM_FORK_ALREADY_INSTALLED"
+    },
+    "rulesState": "deviated: human review pending",
+    "rosterState": "approved: received by normal installation",
+    "workspaceBound": true
+  },
+  "limits": [
+    "No user credentials, private paths, tokens or raw account data are included in this receipt.",
+    "No business Run or external marketing action was performed.",
+    "Development-source packaging/install checks do not certify a signed211 installer, complete app bootstrap, unattended reliability or commercial results."
+  ]
+}
