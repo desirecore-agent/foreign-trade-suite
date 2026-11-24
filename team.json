@@ -1,0 +1,35 @@
+{
+  "$schema": "agentfs/v1/team",
+  "id": "foreign-trade-suite",
+  "name": "外贸营销与业务套件",
+  "type": "persistent",
+  "supervisor": "ft-marketing-lead",
+  "members": [
+    "ft-email-specialist",
+    "ft-search-specialist",
+    "ft-social-researcher",
+    "ft-social-operator",
+    "ft-customs-specialist",
+    "ft-ads-specialist",
+    "ft-due-diligence",
+    "ft-document-specialist",
+    "ft-sourcing-specialist",
+    "ft-image-specialist",
+    "ft-site-specialist"
+  ],
+  "createdBy": "user",
+  "createdAt": "2026-11-24T00:00:00Z",
+  "version": "0.1.0",
+  "memberDisplay": "nested",
+  "workdirMode": "merged",
+  "repository": {
+    "url": "https://github.com/desirecore-agent/foreign-trade-suite.git",
+    "branch": "main",
+    "isPrivate": false
+  },
+  "description": "12人外贸团队，覆盖研究、内容、受控触达及业务支持。需用户模型和渠道账号；费用另计，缺依赖交付范围受限草稿。",
+  "avatar": {
+    "char": "外贸",
+    "color": "green"
+  }
+}

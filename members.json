@@ -1,0 +1,78 @@
+{
+  "$schema": "agentfs/v1/team-members",
+  "lockfileVersion": 1,
+  "agents": {
+    "ft-marketing-lead": {
+      "source": "git",
+      "role": "supervisor",
+      "url": "https://github.com/desirecore-agent/ft-marketing-lead.git",
+      "ref": "bbeb37d3303670bd5bd6705968ec07ae861017fd"
+    },
+    "ft-email-specialist": {
+      "source": "git",
+      "role": "member",
+      "url": "https://github.com/desirecore-agent/ft-email-specialist.git",
+      "ref": "b213628bfb9b61945172259cf988cc26f4c38949"
+    },
+    "ft-search-specialist": {
+      "source": "git",
+      "role": "member",
+      "url": "https://github.com/desirecore-agent/ft-search-specialist.git",
+      "ref": "1a34dbc054e6935ee4dd6346e42c8901ff485e19"
+    },
+    "ft-social-researcher": {
+      "source": "git",
+      "role": "member",
+      "url": "https://github.com/desirecore-agent/ft-social-researcher.git",
+      "ref": "4d4e13a2ab17391ea27c4cfe50fb9ce0f09278e5"
+    },
+    "ft-social-operator": {
+      "source": "git",
+      "role": "member",
+      "url": "https://github.com/desirecore-agent/ft-social-operator.git",
+      "ref": "d3886296bbf4d42a7d277de0d7428f2e97f58552"
+    },
+    "ft-customs-specialist": {
+      "source": "git",
+      "role": "member",
+      "url": "https://github.com/desirecore-agent/ft-customs-specialist.git",
+      "ref": "703adcf6a4fc23a1c2905077fa7c8afc2faccbcf"
+    },
+    "ft-ads-specialist": {
+      "source": "git",
+      "role": "member",
+      "url": "https://github.com/desirecore-agent/ft-ads-specialist.git",
+      "ref": "0ec25d91f0af91e69de16804c29a0ad0083e66a4"
+    },
+    "ft-due-diligence": {
+      "source": "git",
+      "role": "member",
+      "url": "https://github.com/desirecore-agent/ft-due-diligence.git",
+      "ref": "58996d74a71d60ad990eb6bfa968b34c7ca8483f"
+    },
+    "ft-document-specialist": {
+      "source": "git",
+      "role": "member",
+      "url": "https://github.com/desirecore-agent/ft-document-specialist.git",
+      "ref": "70d19a709cc8739587cd6fb63b54a1933bb41a67"
+    },
+    "ft-sourcing-specialist": {
+      "source": "git",
+      "role": "member",
+      "url": "https://github.com/desirecore-agent/ft-sourcing-specialist.git",
+      "ref": "96e7d28e6d9e4f0f707b2e3b16a815909a33b322"
+    },
+    "ft-image-specialist": {
+      "source": "git",
+      "role": "member",
+      "url": "https://github.com/desirecore-agent/ft-image-specialist.git",
+      "ref": "5709b28b72cde8da416efb3e1a9a6319f8116b37"
+    },
+    "ft-site-specialist": {
+      "source": "git",
+      "role": "member",
+      "url": "https://github.com/desirecore-agent/ft-site-specialist.git",
+      "ref": "c0131f3e459d7af5971cf320f1a31d00153eab27"
+    }
+  }
+}
